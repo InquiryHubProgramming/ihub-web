@@ -1,0 +1,113 @@
+.hidden { display: none; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Comfortaa', sans-serif;}
+
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans;
+}
+
+header {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 24px;
+  color: white;
+  background: none;
+  width: 100%;
+  margin: 0px;
+  z-index: 100;
+  position: fixed;
+  transition: all, 0.15s;
+}
+
+header.scrolldown {
+  background-color: #36CE9A;
+}
+
+header .navlinks {
+  text-align: right;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+header a {
+  height: 100%;
+  padding: 16px;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+header a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#topimage {
+  width: 100%;
+  margin-top: -256px;
+  z-index: 0;
+}
+
+#topbutton {
+  transition: all, 0.15s;
+}
+
+#content {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 32px;
+  padding: 16px;
+  color: #424242;
+  background-color: white;
+}
+
+#project-container { width: 100%; }
+
+.project-tile {
+  width: 33.333333333333%;
+  position: relative;
+  float: left;
+}
+.project-tile img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-tile-shape {
+  width: 100%;
+  display: block;
+}
+.project-tile-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.project-tile-desc {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background-color: #2BB384;
+  color: white;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 34px;
+  transition: opacity, 0.5s;
+}
+.project-tile-desc>div { margin: 32px; }
+.project-tile-desc:hover { opacity: 1; }
