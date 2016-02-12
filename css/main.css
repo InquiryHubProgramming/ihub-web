@@ -9,22 +9,26 @@ h1, h2, h3, h4, h5, h6 {
 html {
     width: 100%;
     height: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 header {
-    padding: 16px;
+    padding: 32px;
     position: absolute;
     color: #fff;
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+#headlogo {
+    height: 64px;
 }
 
 #topimage {
@@ -73,8 +77,8 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     overflow: hidden;
 }
 
@@ -82,8 +86,8 @@ header {
     opacity: 0;
     width: 100%;
     height: 100%;
-    left: 0px;
-    top: 0px:
+    left: 0;
+    top: 0;
     position: absolute;
     background-color: #2BB384;
     color: white;
