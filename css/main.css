@@ -14,16 +14,6 @@ body {
     font-family: sans-serif;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 16px;
-    color: #fff;
-    font-size: 2.5em;
-    font-family: 'Quicksand', sans-serif;
-}
-
 .left { float: left; }
 .right { float: right; }
 
