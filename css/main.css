@@ -1,10 +1,5 @@
-.hidden {
-    display: none;
-}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Comfortaa', sans-serif;
-}
+h1, h2, h3, h4, h5, h6 { font-family: 'Quicksand', sans-serif; }
 
 html {
     width: 100%;
@@ -20,42 +15,71 @@ body {
 }
 
 header {
-    padding: 32px;
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 16px;
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
     font-size: 2.5em;
+    font-family: 'Quicksand', sans-serif;
 }
 
-#headlogo {
-    height: 64px;
+.left { float: left; }
+.right { float: right; }
+
+.button {
+    display: inline-block;
+    line-height: normal;
+    padding: 0em 1.25em;
+    border-radius: 4px;
+    border: #ffffff solid 2px;
+    transition: all 0.5s;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: white;
+    color: #364E4B;
 }
 
 #topimage {
     width: 100%;
-    background-image: url(img/background-1.jpeg);
+    background: url('../img/background-1.jpeg') top center;
     background-size: cover;
-    height: 512px;
-    margin: 0;
+    margin-top: 0;
     display: block;
+    text-align: center;
 }
-
-#topbutton {
-    transition: all, 0.15s;
+#toptext {
+    color: white;
+    margin: 5em;
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    display: inline-block;
+    line-height: 2.5em;
 }
-
-#content {
-
+#toptext img {
+    height: 4em;
 }
+#content {  }
 
-.contentspan {
+.contentbar {
     max-width: 100%;
-    padding: 32px;
-    background-color: #F8BE41;
+    background-color: #FEC45A;
     color: white;
     font-family: sans-serif;
     text-align: center;
 }
-.contentspan h1 {
-    font-family: 'Quicksand', sans-serif;
+.contentbar p {
+    text-align: justify;
+    font-family: sans-serif;
+}
+.contentbar img {
+    height: 4.5em;
+}
+.barpadding {
+    width: 80%;
+    margin:auto;
+    padding: 32px 0;
 }

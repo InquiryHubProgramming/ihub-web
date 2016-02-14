@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="827.34467"
-   height="130.96428"
+   width="97.28125"
+   height="128.00002"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -24,14 +24,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="30.421584"
-     inkscape:cy="-57.140701"
+     inkscape:cy="-60.104962"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="1505"
-     inkscape:window-y="80"
+     inkscape:window-width="768"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -45,7 +45,7 @@
      guidetolerance="10"
      inkscape:snap-from-guide="true">
     <sodipodi:guide
-       position="51.618796,25.59168"
+       position="51.618796,22.627419"
        orientation="0,1192"
        id="guide2995" />
   </sodipodi:namedview>
@@ -115,16 +115,5 @@
        inkscape:connector-curvature="0"
        d="m 526.43103,551.08222 c 0,0 34.25888,0.28457 34.52239,-39.04531 0.17912,-26.71769 -34.52239,-60.52871 -34.52239,-60.52871 0,0 -32.8174,33.76823 -32.8174,60.52871 0,38.58201 32.8174,39.04531 32.8174,39.04531 z"
        style="fill:none;stroke:#ffffff;stroke-width:6.41815805;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <text
-       xml:space="preserve"
-       style="font-size:124.83757782px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Quicksand;-inkscape-font-specification:Quicksand"
-       x="595.66077"
-       y="553.67169"
-       id="text3759"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3761"
-         x="595.66077"
-         y="553.67169">Inquiry Hub</tspan></text>
   </g>
 </svg>
